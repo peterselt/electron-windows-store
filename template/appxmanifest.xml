@@ -30,7 +30,11 @@
        Square150x150Logo="assets\Square150x150Logo.png"
        Square44x44Logo="assets\Square44x44Logo.png"
        Description="${packageDescription}">
-        <uap:DefaultTile Wide310x150Logo="assets\Wide310x150Logo.png" />
+        <uap:DefaultTile 
+          Wide310x150Logo="assets\Wide310x150Logo.png" 
+          Square310x310Logo="assets\LargeTile.png" 
+          Square71x71Logo="assets\SmallTile.png">
+        </uap:DefaultTile>
       </uap:VisualElements>
     </Application>
   </Applications>
