@@ -36,6 +36,7 @@
           Square71x71Logo="assets\SmallTile.png">
         </uap:DefaultTile>
       </uap:VisualElements>
+      ${extensions}
     </Application>
   </Applications>
 </Package>
